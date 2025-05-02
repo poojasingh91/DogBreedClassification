@@ -1,12 +1,12 @@
-###Dog Breed Classification with CNN and 5-Fold Cross-Validation
+# Dog Breed Classification with CNN and 5-Fold Cross-Validation
 
-##Overview
+## Overview
 
 This project implements a deep learning pipeline using Convolutional Neural Networks (CNNs) to classify dog breeds from images. It uses Keras with TensorFlow backend and includes 5-fold stratified cross-validation for robust model evaluation. Preprocessing steps include bounding box cropping from annotation XML files, data augmentation, and class balancing.
 
-📁 Project Structure
+## Project Structure
 
-.
+```
 ├── dataset/
 │   └── filtered/ImageCropped/         # Image dataset organized by class folders
 ├── notebooks/
@@ -22,8 +22,9 @@ This project implements a deep learning pipeline using Convolutional Neural Netw
 │   │── val_data.png                       # Histogram of validation set distribution
 │   └── roc_auc.png                        # Multi-class ROC-AUC curve
 └── README.md
+```
 
-##Features
+## Features
 
 Dataset preprocessed using bounding box coordinates from XML annotations
 
@@ -52,7 +53,7 @@ Multi-class ROC-AUC visualization
 Publication-quality plots (Times New Roman, clean layout)
 
 
-##How to Run
+## How to Run
 
 Install requirements:
 
@@ -69,7 +70,7 @@ jupyter notebook
 Output images will be saved in the current working directory.
 
 
-##Results Summary (5-Fold Cross-Validation)
+## Results Summary (5-Fold Cross-Validation)
 
 Metric
 
