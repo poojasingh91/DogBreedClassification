@@ -1,4 +1,4 @@
-# Dog Breed Classification with CNN and 5-Fold Cross-Validation
+# Precision-Driven Biometric Recognition for Dog Breed Identification
 
 ## Overview
 
