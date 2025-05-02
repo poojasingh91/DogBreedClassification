@@ -8,9 +8,9 @@ This project implements a deep learning pipeline using Convolutional Neural Netw
 
 ```
 ├── dataset/
-│   └── filtered/ImageCropped/            # Image dataset organized by class folders
+│   └── filtered/ImageCropped/             # Image dataset organized by class folders
 ├── notebooks/
-│   └── DogClassification                 # Main training, validation, and evaluation code
+│   └── DogClassification                  # Main training, validation, and evaluation code
 ├── plot-image/
 │   │── train_val_loss.png                 # Plot of training vs validation loss
 │   │── train_val_loss.png                 # Plot of training vs validation loss
